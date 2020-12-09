@@ -18,11 +18,11 @@ Tensorflow-1.8
 
 ## 1&ensp;Dependencies
 
-#### 1.1&ensp;Install ROS
+#### 1.1 &ensp;Install ROS
 
 
 
-#### 1.2&ensp;Install PCL
+#### 1.2 &ensp;Install PCL
 
 Install the required dependencies first
 
@@ -68,7 +68,7 @@ $ sudo make install
 $ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 ```
 
-#### 1.3 &ensp; Install Ceres Solver
+#### 1.3 &ensp;Install Ceres Solver
 
 
 
