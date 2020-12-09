@@ -293,7 +293,7 @@ $ source ~/catkin_velodyne/devel/setup.bash
 
 #### 3.1 &ensp;Download demonstration files
 
-Download the segmap data from [here](链接:https://pan.baidu.com/s/10ZmnXQMdqTU8qm3SRI1XqQ  密码:gscv). 
+Download the segmap data from [here](). 
 
 #### 3.2 &ensp;Run examples
 
