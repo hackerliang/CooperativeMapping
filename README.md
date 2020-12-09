@@ -20,7 +20,7 @@ Ubuntu 16.04 + ROS Kinetic
 
 #### 1.1 &ensp;Install ROS
 
-Fllow [ROS Installation](http://wiki.ros.org/ROS/Installation).
+Follow [ROS Installation](http://wiki.ros.org/ROS/Installation).
 
 #### 1.2 &ensp;Install PCL
 
