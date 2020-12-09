@@ -8,19 +8,19 @@ The computer should under the following environments:
 
 Ubuntu 16.04 + ROS Kinetic
 
-PCL-1.8
+- PCL-1.8
 
-LCM-1.4.0 
+- LCM-1.4.0 
 
-Ceres Solver-2.0.0
+- Ceres Solver-2.0.0
 
-Tensorflow-1.8
+- Tensorflow-1.8
 
 ## 1&ensp;Dependencies
 
 #### 1.1 &ensp;Install ROS
 
-
+Fllow [ROS Installation](http://wiki.ros.org/ROS/Installation).
 
 #### 1.2 &ensp;Install PCL
 
