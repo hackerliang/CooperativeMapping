@@ -70,7 +70,7 @@ $ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 #### 1.3 &ensp;Install Ceres Solver
 
-
+Follow [Ceres Installation](http://ceres-solver.org/installation.html).
 
 #### 1.4 &ensp;Install LCM
 
