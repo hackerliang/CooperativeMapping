@@ -72,7 +72,7 @@ $ sudo apt-get install ros-kinetic-pcl-conversions ros-kinect-pcl-ros
 
 
 
-#### 1.4 &ensp; Install LCM
+#### 1.4 &ensp;Install LCM
 
 Install required dependencies
 
@@ -91,7 +91,7 @@ $ sudo make install
 $ sudo ldconfig
 ```
 
-#### 1.5 &ensp; Set up the workspace configuration
+#### 1.5 &ensp;Set up the workspace configuration
 
 First install the required system packages:
 
@@ -119,9 +119,9 @@ $ wstool merge CooperativeMapping/dependencies.rosinstall
 $ wstool update
 ```
 
-## 2 &ensp; Compilation
+## 2 &ensp;Compilation
 
-#### 2.1 &ensp; Build Tensorflow from source(more details can be seen here)
+#### 2.1 &ensp;Build Tensorflow from source(more details can be seen here)
 
 Install the TensorFlow *pip* package dependencies
 
@@ -223,7 +223,7 @@ $ bazel build --config=opt --define framework_shared_object=false
 tensorflow:libtensorflow_cc.so
 ```
 
-#### 2.2 &ensp; Build tensorflow_ros_cpp
+#### 2.2 &ensp;Build tensorflow_ros_cpp
 
 Find the CMakeLists.txt file in *tensorflow_ros_cpp* package and set up the path, 
 
@@ -248,7 +248,7 @@ $ cd ~/catkin_velodyne
 $ catkin build tensorflow_ros_cpp
 ```
 
-#### 2.3 &ensp; Build loam_velodyne
+#### 2.3 &ensp;Build loam_velodyne
 
 Install some packages first：
 
@@ -283,7 +283,7 @@ $ cd ~/catkin_velodyne
 $ catkin build loam_velodyne
 ```
 
-## 3 &ensp; Running 
+## 3 &ensp;Running 
 
 Make sure to source the workspace before running:
 
@@ -291,11 +291,11 @@ Make sure to source the workspace before running:
 $ source ~/catkin_velodyne/devel/setup.bash
 ```
 
-#### 3.1 &ensp; Download demonstration files
+#### 3.1 &ensp;Download demonstration files
 
 Download the segmap data from [here](链接:https://pan.baidu.com/s/10ZmnXQMdqTU8qm3SRI1XqQ  密码:gscv). 
 
-#### 3.2 &ensp; Run examples
+#### 3.2 &ensp;Run examples
 
 An online cooperative example can be run with
 
