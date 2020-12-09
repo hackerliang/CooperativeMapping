@@ -16,9 +16,9 @@ Ceres Solver-2.0.0
 
 Tensorflow-1.8
 
-## 1.  Dependencies
+## 1&ensp Dependencies
 
-#### 1.1  Install ROS
+#### 1.1&enspInstall ROS
 
 
 
@@ -119,7 +119,7 @@ $ wstool merge CooperativeMapping/dependencies.rosinstall
 $ wstool update
 ```
 
-## 2.  Compilation
+## 2  Compilation
 
 #### 2.1  Build Tensorflow from source(more details can be seen here)
 
