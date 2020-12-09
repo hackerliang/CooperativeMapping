@@ -1,0 +1,2 @@
+set(loam_velodyne_msg_MESSAGE_FILES "/home/slam/catkin_velodyne/src/loam_velodyne_msg/msg/Heading.msg;/home/slam/catkin_velodyne/src/loam_velodyne_msg/msg/NodeTransform.msg")
+set(loam_velodyne_msg_SERVICE_FILES "")
