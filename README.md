@@ -6,7 +6,7 @@ Cooperative Mapping method based on LOAM and Segmap.
 
 The computer should under the following environments:
 
-Ubuntu 16.04 + ROS Kinetic
+- Ubuntu 16.04 + ROS Kinetic
 
 - PCL-1.8
 
