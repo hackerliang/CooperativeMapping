@@ -2,7 +2,7 @@
 
 Cooperative Mapping method based on LOAM and Segmap.
 
-
+ ![image](https://github.com/sinetree/CooperativeMapping/blob/main/cooperative.png)
 
 The computer should under the following environments:
 
