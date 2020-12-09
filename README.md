@@ -16,9 +16,9 @@ Ceres Solver-2.0.0
 
 Tensorflow-1.8
 
-## 1&ensp Dependencies
+## 1&ensp;Dependencies
 
-#### 1.1&enspInstall ROS
+#### 1.1&ensp;Install ROS
 
 
 
