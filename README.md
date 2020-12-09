@@ -276,7 +276,7 @@ $ make
 $ sudo make install
 ```
 
-Finally, build the *loam_velodyne* package which will compile all dependencies and SegMap modules:
+Finally, build the *loam_velodyne* package which will compile all dependencies modules:
 
 ```
 $ cd ~/catkin_velodyne
@@ -285,25 +285,24 @@ $ catkin build loam_velodyne
 
 ## 3 &ensp;Running 
 
-Make sure to source the workspace before running:
-
-```
-$ source ~/catkin_velodyne/devel/setup.bash
-```
+Make sure your PC is connected to another PC by wired. Computers could communicate with each other. You can use ping command to detect. 
 
 #### 3.1 &ensp;Download demonstration files
 
-Download the segmap data from [here](). 
+Download dataset from [here](). 
 
 #### 3.2 &ensp;Run examples
 
-An online cooperative example can be run with
+An online cooperative example can be run on two computers simultaneously. Each computer needs to open two terminals.
+
+In the first terminal:
 
 ```
+$ source ~/catkin_velodyne/devel/setup.bash
 $ roslaunch loam_velodyne loam_velodyne_HDL64.launch
 ```
 
-In the second terminal play sample velodyne data from kitti rosbag:
+In the second terminal play velodyne data from kitti rosbag:
 
 ```
 $ rosbag play xxx.bag 
